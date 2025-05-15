@@ -22,7 +22,7 @@ def parse_tasks(text):
     task_title = ""
     subtasks = []
 
-    task_pattern = re.compile(r"Task\s\d+: (.+?)\s+\((\d+)\s+Points?\)", re.IGNORECASE)
+    task_pattern = re.compile(r"(Task|Aufgabe)\s\d+: (.+?)\s+\((\d+)\s+Points?\)", re.IGNORECASE)
     subtask_pattern = re.compile(r"\([a-d]\)\s+(.+?)\s+\((\d+)\s+P\)")
 
     for line in lines:

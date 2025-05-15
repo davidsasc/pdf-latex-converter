@@ -15,6 +15,7 @@ Ein einfaches Web-Tool zum Hochladen von PDF-Dateien mit Aufgabenstellungen. Dar
 ### 1. Repository klonen
 
 ```bash
+git init
 git clone https://github.com/davidsasc/pdf-latex-converter/
 cd pdf-latex-converter
 ```
